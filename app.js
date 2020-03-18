@@ -13,6 +13,6 @@ app.use(express.static("./public"));
 // fire controllers
 todoController(app);
 
-// listen to port 3000
-app.listen(3000);
-console.log("u r listening to port 3000");
+// listen to port 8000
+app.listen(8000);
+console.log("u r listening to port 8000");
